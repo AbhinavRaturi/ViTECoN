@@ -1,0 +1,225 @@
+.navbar-fixed {
+  z-index: 999;
+}
+.logo_size {
+  align-items: center;
+  margin-top: 15px; /*changes made here */
+  margin-left: 10px; /*Changes made*/
+  margin-bottom: 5px;
+  height: 58px;
+  width: auto;
+}
+.navst {
+  font-size: 0.9vw;
+  padding: 10px 30px;
+  margin-top: 2px;
+  /* margin-bottom: 2px; */
+}
+.image_text {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 35%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+}
+.pictext {
+  padding: 0% 0%;
+  margin: 0%;
+  font-family: "Gill Sans", serif;
+  font-size: 2.9vw;
+}
+
+.pictext1 {
+  padding: 0%;
+  margin: 0%;
+  font-family: "Gill Sans", serif;
+  font-size: 1.5vw;
+}
+.pictext2 {
+  padding: 0%;
+  margin: 0%;
+  font-family: "Gill Sans", serif;
+  font-size: 1.7vw;
+}
+.jumbopic1 {
+  width: 300px;
+  height: auto;
+  align-items: center;
+  padding-top: 70px;
+}
+.jumbopic2 {
+  width: 250px;
+  height: auto;
+  padding-top: 60px;
+}
+.description {
+  font-family: "Gill Sans", serif;
+}
+.all_head {
+  font-size: 2.5vw;
+}
+.all_rhead {
+  font-size: 1.5vw;
+}
+
+@media only screen and (max-width: 600px) {
+  .jumbtext {
+    margin-bottom: 30px;
+  }
+  .jumbopic1 {
+    margin-top: 0px;
+    width: 150px;
+    height: auto;
+  }
+  .jumbopic2 {
+    margin-top: 15px;
+    width: 100px;
+    height: auto;
+  }
+  .logo_size {
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 50px;
+    width: auto;
+  }
+  .all_head {
+    font-size: 5.8vw;
+  }
+  .all_rhead {
+    font-size: 5.9vw;
+  }
+  .jumbpadd {
+    padding-right: 15px;
+  }
+}
+
+/* ################################################################################################## */
+/* ################################################################################################## */
+/* ################################################################################################## */
+.marq {
+  color: white;
+  font-size: 1.8vw;
+  text-align: center;
+  font-family: "Gill Sans", serif;
+  transition: 0.5s;
+}
+.blinking1 {
+  animation: blinkingTexts 1s infinite;
+}
+@keyframes blinkingTexts {
+  0% {
+    color: orange;
+  }
+  49% {
+    color: white;
+  }
+  50% {
+    color: white;
+  }
+  99% {
+    color: white;
+  }
+  100% {
+    color: orange;
+  }
+}
+.centered1 {
+  position: absolute;
+  top: 60%;
+  left: 0%;
+  right: 0%;
+}
+/* ################################################################################################## */
+/* #############################      COMMITTEE     ################################################# */
+/* ################################################################################################## */
+.bg_comm {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.comm_text {
+  text-align: center;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.comm_list {
+  border: 0px;
+}
+.comm_coll {
+  margin-left: 30vw;
+  margin-right: 30vw;
+}
+.comm_table tr {
+  border-color: white;
+}
+
+/* ########################################BLINKING######################################### */
+.blinking {
+  animation: blinkingText 1.5s infinite;
+}
+@keyframes blinkingText {
+  0% {
+    color: orange;
+  }
+  49% {
+    color: orange;
+  }
+  50% {
+    color: black;
+  }
+  99% {
+    color: black;
+  }
+  100% {
+    color: orange;
+  }
+}
+/* ##################################CONTACT############################################ */
+.con_text {
+  font-family: "Gill Sans", serif;
+  color: white;
+  text-align: center;
+}
+.con_text1 {
+  font-family: "Gill Sans", serif;
+  color: white;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+.con_text2 {
+  font-family: "Gill Sans", serif;
+  color: white;
+  text-align: left;
+  margin: 0px;
+}
+.query_text {
+  text-align: center;
+  color: white;
+  font-family: "Gill Sans", serif;
+  padding: 5px;
+  margin-right: 30vw;
+  margin-left: 30vw;
+  border-radius: 25px;
+  border-style: groove;
+  background-color: #353F6E;
+  opacity: 0.8;
+}
+
+.query_text1 {
+  text-align: center;
+  color: white;
+  font-family: "Gill Sans", serif;
+
+  margin-right: 20vw;
+  margin-left: 20vw;
+  border-radius: 25px;
+  border-style: groove;
+  padding: 10px;
+}
